@@ -20,8 +20,8 @@ This quantitative model of article presentation will be useful for maximizing th
 ---
 - Installing dependecies for the project
 
-  `sudo apt-get install python3-tables
-   sudo pip3 install seaborn pandas networkx`
+  * `sudo apt-get install python3-tables`
+  * `sudo pip3 install seaborn pandas networkx`
 
 
 ### Exploratory Data Analysis
