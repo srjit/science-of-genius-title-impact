@@ -6,18 +6,20 @@ The initial stages of the study will focus on the temporal and disciplinary vari
 	This quantitative model of article presentation will be useful for maximizing the impact of future articles and thereby accelerate scientific growth.
 
 
-###We hypothesize that:
-	- There is a relationship between the length of the title and impact of the article, which also depends on the popularity of the journal where it was published.
-	- The reputation of the authors/co-author has a positive effect on the impact of the article.
-	- Topic popularity reflected in the title or abstract may contribute to the impact.
-	- The clarity of the abstract has a positive influence on the impact of the article.
-	- The sentiment of the abstract has a positive influence on the impact of the article.
+###We hypothesize that
+---
+- There is a relationship between the length of the title and impact of the article, which also depends on the popularity of the journal where it was published.
+- The reputation of the authors/co-author has a positive effect on the impact of the article.
+- Topic popularity reflected in the title or abstract may contribute to the impact.
+- The clarity of the abstract has a positive influence on the impact of the article.
+- The sentiment of the abstract has a positive influence on the impact of the article.
 	
 
 
 
 ###Exploratory Data Analysis
-	- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/data-exploration) notebooks explore the temporal distribution of structures in titles of Applied Physics articles conditioned on Journals in which they appear.
+---
+- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/data-exploration) notebooks explore the temporal distribution of structures in titles of Applied Physics articles conditioned on Journals in which they appear.
 	
 
 
