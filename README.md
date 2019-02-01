@@ -16,6 +16,11 @@ This quantitative model of article presentation will be useful for maximizing th
 - The sentiment of the abstract has a positive influence on the impact of the article.
 	
 
+### Environment
+---
+- Installing dependecies for the project
+  `sudo apt-get install python3-tables
+   sudo pip3 install seaborn pandas networkx`
 
 
 ### Exploratory Data Analysis
