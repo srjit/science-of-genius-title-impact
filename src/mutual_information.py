@@ -10,7 +10,8 @@ def get_number_of_bins(length):
 
 def calculate(X,Y):
     
-   bins = get_number_of_bins(len(X))
+   #bins = get_number_of_bins(len(X))
+   bins = 6
    c_XY = np.histogram2d(X,Y,bins)[0]
    c_X = np.histogram(X,bins)[0]
    c_Y = np.histogram(Y,bins)[0]
