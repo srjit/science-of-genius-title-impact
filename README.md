@@ -23,10 +23,25 @@ This quantitative model of article presentation will be useful for maximizing th
   * `sudo apt-get install python3-tables`
   * `sudo pip3 install seaborn pandas networkx`
 
+### Building Data For Analysis
+---
+-[These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/create-data) notebooks shows data preparation steps for the analysis.
 
 ### Exploratory Data Analysis
 ---
 - [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/data-exploration) notebooks explore the temporal distribution of structures in titles of Applied Physics articles conditioned on Journals in which they appear.
+
+### Models - Title
+---
+-[These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/models) models show how linear/weighted linear regression models have been used to predict log c5 (citation counts five years from the year of publication).
+
+### Novelty
+---
+-[These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/novelty-eda) notebooks show how new (interesting) words come up in literature (titles) and how they decay through time.
+
+### Interdisciplinary Novelty
+---
+-[These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/word%20propagation) notebooks shows building a framework for selecting interesting words and how those words move from one disciple to another through time.
 	
 
 
