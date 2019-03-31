@@ -42,7 +42,7 @@ This quantitative model of article presentation will be useful for maximizing th
 ### Interdisciplinary Novelty
 ---
 - [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/word%20propagation) notebooks shows building a framework for selecting interesting words and how those words move from one disciple to another through time.
-- [This](https://github.com/srjit/science-of-genius-title-impact/blob/master/presentations/tf-df%20plot.html) plot shows how the words across multiple disciplines were selected  for analysis (we pick words with low document frequency and high term frequency)  and [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/presentations) html files (graphs) shows different patterns by which words propagate from one discipline to another.
+- [This](https://github.com/srjit/science-of-genius-title-impact/blob/master/presentations/tf-df%20plot.html) plot shows how the words across multiple disciplines were selected  for analysis (we pick words with low document frequency and high term frequency)  and [these](https://github.com/srjit/science-of-genius-title-impact/tree/master/presentations) html files (graphs) shows different patterns by which words propagate from one discipline to another.
 
 
 
