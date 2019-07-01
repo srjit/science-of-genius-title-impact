@@ -7,15 +7,6 @@ The initial stages of the study will focus on the temporal and disciplinary vari
 This quantitative model of article presentation will be useful for maximizing the impact of future articles and thereby accelerate scientific growth.
 
 
-### We hypothesize that
----
-- There is a relationship between the length of the title and impact of the article, which also depends on the popularity of the journal where it was published.
-- The reputation of the authors/co-author has a positive effect on the impact of the article.
-- Topic popularity reflected in the title or abstract may contribute to the impact.
-- The clarity of the abstract has a positive influence on the impact of the article.
-- The sentiment of the abstract has a positive influence on the impact of the article.
-	
-
 ### Environment
 ---
 - Installing dependecies for the project
@@ -25,25 +16,39 @@ This quantitative model of article presentation will be useful for maximizing th
 
 ### Building Data For Analysis
 ---
-- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/create-data) notebooks shows data preparation steps for the analysis.
+- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/1.%20Build%20Data%20for%20Analysis) notebooks shows data preparation steps for the analysis.
 
 ### Exploratory Data Analysis
 ---
-- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/data-exploration) notebooks explore the temporal distribution of structures in titles of Applied Physics articles conditioned on Journals in which they appear.
+- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/2.%20Explore%20Data%20-%20Title%20Length%20Analysis) notebooks explore the temporal distribution of structures in titles of Applied Physics articles conditioned on Journals in which they appear.
 
 ### Models - Title
 ---
-- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/models) models show how linear/weighted linear regression models have been used to predict log c5 (citation counts five years from the year of publication).
+- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/3.%20Title%20Length%20-%20Citation%20Counts%20:%20Curve%20Fitting) models show how linear/weighted linear regression models have been used to predict log c5 (citation counts five years from the year of publication).
 
 ### Novelty
 ---
-- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/novelty-eda) notebooks show how new (interesting) words come up in literature (titles) and how they decay through time.
-
-### Interdisciplinary Novelty
+- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/4.%20Word%20Overlap%20with%20Previous%20N%20Years)
+  notebooks show how new (interesting) words come up in literature (titles) and how they decay
+  through time.
+  
+## Semantics EDA
 ---
-- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/word%20propagation) notebooks shows building a framework for selecting interesting words and how those words move from one disciple to another through time.
-- [This](https://github.com/srjit/science-of-genius-title-impact/blob/master/presentations/tf-df%20plot.html) plot shows how the words across multiple disciplines were selected  for analysis (we pick words with low document frequency and high term frequency)  and [these](https://github.com/srjit/science-of-genius-title-impact/tree/master/presentations) html files (graphs) shows different patterns by which words propagate from one discipline to another.
+- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/5.%20Variations%20in%20Parts%20of%20Speech%20-%20Impact%20on%20Citations)
+  notebooks show how variations in parts of speech of titles have changed over the years for different disciplines.
 
+
+## Propagation of Words
+---
+- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/6.%20Propagation%20of%20words%20-%20Growth%20and%20Decay)
+  notebooks show different methods of selecting concepts from titles of publications and how growth
+  and decay of concepts happen for different disciplines.
+  
+## Word Usage Fluctuations
+---
+- [These](https://github.com/srjit/science-of-genius-title-impact/tree/master/src/7.%20Temporal%20Word%20Variations)
+  notebooks show how much fluctuations occur in word usage. We also try to characterize these
+  fluctuations to known distributions. 
 
 
 
