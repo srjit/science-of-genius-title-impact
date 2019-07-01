@@ -1,7 +1,8 @@
 
-Overview:
+### Overview
+---
 
-    These notebooks show bringing in different sources data together for analysis. The sources include
+These notebooks show bringing in different sources data together for analysis. The sources include
 
 - category data (For the discipline)
 - article data (For the article/publication details)
